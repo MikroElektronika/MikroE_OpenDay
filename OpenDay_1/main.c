@@ -10,13 +10,13 @@ void delay(unsigned int count)
     }
 }
 
-// Function to display flag state
+// Function to display flag state, updated for new branch
 void printFlag(bool flag)
 {
     if (flag) {
-        printf_me("Flag is ON\n");
+        printf_me("Flag is Activated\n");
     } else {
-        printf_me("Flag is OFF\n");
+        printf_me("Flag is Deactivated\n");
     }
 }
 
@@ -29,14 +29,11 @@ int main(void)
 
     bool flag = false;
 
-    /* Replace with your application code */
     while (1)
     {
-        flag = !flag;          // Toggle flag state
-
-        printFlag(flag);       // Display flag state in console
-
-        delay(1000000);        // Delay to slow down toggling
+        flag = !flag;           // Toggle flag state
+        printFlag(flag);        // Display updated flag state messages
+        delay(2000000);         // Increased delay to differentiate from main branch (previous 1000000)
     }
 
     return 0;
