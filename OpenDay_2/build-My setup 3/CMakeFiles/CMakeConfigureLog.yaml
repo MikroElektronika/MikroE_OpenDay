@@ -1,0 +1,221 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The target system is: Generic - 1 - 
+      The host system is: Linux - 6.14.0-33-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      (.text.exit+0x28): undefined reference to `_exit'
+      /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      (.text._close_r+0x18): undefined reference to `_close'
+      /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      (.text._lseek_r+0x24): undefined reference to `_lseek'
+      /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      (.text._read_r+0x24): undefined reference to `_read'
+      /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      (.text._write_r+0x24): undefined reference to `_write'
+      /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      (.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/build-My setup 3/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (xPack GNU Arm Embedded GCC x86_64) 12.2.1 20221205
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/build-My setup 3/CMakeFiles/CMakeScratch/TryCompile-qQc8bM"
+      binary: "/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/build-My setup 3/CMakeFiles/CMakeScratch/TryCompile-qQc8bM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake;/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/core/ARM/gcc_clang/arm_gcc_clang_stm32f4x/cmake;/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/mikroe_utils_common;/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/Debug/lib/cmake;;/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake;/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/core/ARM/gcc_clang/arm_gcc_clang_stm32f4x/cmake;/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/mikroe_utils_common;/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/Debug/lib/cmake;"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/build-My setup 3/CMakeFiles/CMakeScratch/TryCompile-qQc8bM'
+        
+        Run Build Command(s): /home/stevan/MikroElektronika_Experimental/NECTOStudio/bin/ninja -v cmTC_1f4b6
+        [1/2] /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc   -v -std=gnu99 -Wl,-Map=output.map,-gc-sections,--print-memory-usage -mcpu=cortex-m4 -mthumb --specs=nosys.specs -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Wno-int-conversion -Wno-incompatible-function-pointer-types -Wno-implicit-function-declaration -o CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj -c /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        Reading specs from /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/nosys.specs
+        rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+        COLLECT_GCC=/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.1 20221205 (xPack GNU Arm Embedded GCC x86_64) 
+        COLLECT_GCC_OPTIONS='-v' '-std=gnu99' '-mcpu=cortex-m4' '-mthumb' '-specs=nosys.specs' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-ffunction-sections' '-fdata-sections' '-fno-common' '-fmessage-length=0' '-Wno-int-conversion' '-Wno-incompatible-function-pointer-types' '-Wno-implicit-function-declaration' '-o' 'CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_1f4b6.dir/'
+         /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1f4b6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wno-int-conversion -Wno-incompatible-function-pointer-types -Wno-implicit-function-declaration -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/ccE1c3mG.s
+        GNU C99 (xPack GNU Arm Embedded GCC x86_64) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+        ignoring nonexistent directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+        ignoring duplicate directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include
+         /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+         /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C99 (xPack GNU Arm Embedded GCC x86_64) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: c1f6416eaaa30e1f663a6f83e250d883
+        COLLECT_GCC_OPTIONS='-v' '-std=gnu99' '-mcpu=cortex-m4' '-mthumb' '-specs=nosys.specs' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-ffunction-sections' '-fdata-sections' '-fno-common' '-fmessage-length=0' '-Wno-int-conversion' '-Wno-incompatible-function-pointer-types' '-Wno-implicit-function-declaration' '-o' 'CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_1f4b6.dir/'
+         /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj /tmp/ccE1c3mG.s
+        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.39.0.20221210
+        COMPILER_PATH=/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../libexec/gcc/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-std=gnu99' '-mcpu=cortex-m4' '-mthumb' '-specs=nosys.specs' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-ffunction-sections' '-fdata-sections' '-fno-common' '-fmessage-length=0' '-Wno-int-conversion' '-Wno-incompatible-function-pointer-types' '-Wno-implicit-function-declaration' '-o' 'CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/bin/cmake -E rm -f libcmTC_1f4b6.a && /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libcmTC_1f4b6.a  CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj && /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libcmTC_1f4b6.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+          add: [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+          add: [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/12.2.1/include]
+        collapse include dir [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        collapse include dir [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/12.2.1/include;/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/build-My setup 3/CMakeFiles/CMakeScratch/TryCompile-qQc8bM']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/stevan/MikroElektronika_Experimental/NECTOStudio/bin/ninja -v cmTC_1f4b6]
+        ignore line: [[1/2] /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc   -v -std=gnu99 -Wl -Map=output.map -gc-sections --print-memory-usage -mcpu=cortex-m4 -mthumb --specs=nosys.specs -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Wno-int-conversion -Wno-incompatible-function-pointer-types -Wno-implicit-function-declaration -o CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj -c /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/nosys.specs]
+        ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+        ignore line: [COLLECT_GCC=/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/sources/gcc/configure --prefix=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/application --with-sysroot=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/application/arm-none-eabi --with-native-system-header-dir=/include --infodir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install/share/info --mandir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install/share/man --htmldir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install/share/html --pdfdir=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install/share/pdf --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-none-eabi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/__w/arm-none-eabi-gcc-xpack/arm-none-eabi-gcc-xpack/build/linux-x64/x86_64-pc-linux-gnu/install --with-newlib --with-pkgversion='xPack GNU Arm Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --disable-libatomic --enable-multilib --with-multilib-list=aprofile,rmprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.1 20221205 (xPack GNU Arm Embedded GCC x86_64) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu99' '-mcpu=cortex-m4' '-mthumb' '-specs=nosys.specs' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-ffunction-sections' '-fdata-sections' '-fno-common' '-fmessage-length=0' '-Wno-int-conversion' '-Wno-incompatible-function-pointer-types' '-Wno-implicit-function-declaration' '-o' 'CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_1f4b6.dir/']
+        ignore line: [ /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1f4b6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wno-int-conversion -Wno-incompatible-function-pointer-types -Wno-implicit-function-declaration -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/ccE1c3mG.s]
+        ignore line: [GNU C99 (xPack GNU Arm Embedded GCC x86_64) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+        ignore line: [ /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        ignore line: [ /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C99 (xPack GNU Arm Embedded GCC x86_64) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: c1f6416eaaa30e1f663a6f83e250d883]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu99' '-mcpu=cortex-m4' '-mthumb' '-specs=nosys.specs' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-ffunction-sections' '-fdata-sections' '-fno-common' '-fmessage-length=0' '-Wno-int-conversion' '-Wno-incompatible-function-pointer-types' '-Wno-implicit-function-declaration' '-o' 'CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_1f4b6.dir/']
+        ignore line: [ /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj /tmp/ccE1c3mG.s]
+        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC x86_64) 2.39.0.20221210]
+        ignore line: [COMPILER_PATH=/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../libexec/gcc/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu99' '-mcpu=cortex-m4' '-mthumb' '-specs=nosys.specs' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-ffunction-sections' '-fdata-sections' '-fno-common' '-fmessage-length=0' '-Wno-int-conversion' '-Wno-incompatible-function-pointer-types' '-Wno-implicit-function-declaration' '-o' 'CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/bin/cmake -E rm -f libcmTC_1f4b6.a && /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ar qc libcmTC_1f4b6.a  CMakeFiles/cmTC_1f4b6.dir/CMakeCCompilerABI.c.obj && /home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib libcmTC_1f4b6.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
