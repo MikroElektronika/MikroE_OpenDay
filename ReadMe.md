@@ -1,6 +1,6 @@
 # 🧠 NECTO Studio – Git Demo Repository
 
-![MikroElektronika Logo](https://www.mikroe.com/img/mikroe-logo-small.png)
+![MikroElektronika Logo](https://www.mikroe.com/img/designs/beta/logo_small.png)
 
 This repository is designed to **demonstrate Git integration in [NECTO Studio](https://www.mikroe.com/necto)** — MikroElektronika’s next-generation IDE for embedded development.
 It serves as a safe sandbox for exploring how version control works directly inside NECTO.
