@@ -1,0 +1,4 @@
+main@_main
+	__FillZeros@___FillZeros
+	preinit@_preinit
+	delay@main_delay
