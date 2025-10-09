@@ -1,0 +1,14 @@
+[
+    {
+        "command": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc -DMikroCCoreVersion=1 -DOSC_KHZ=\"168*1000UL\" -DPREINIT_SUPPORTED -I/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/include -isystem /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/Debug/include/core -isystem /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/Debug/include/core/STM32F407ZG -isystem /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/Debug/include/core/common/cmsis -g -std=gnu99 -Wl,-Map=output.map,-gc-sections,--print-memory-usage -mcpu=cortex-m4 -mthumb --specs=nosys.specs -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Wno-int-conversion -Wno-incompatible-function-pointer-types -Wno-implicit-function-declaration -o CMakeFiles/OpenDay_2.dir/main.c.obj -c /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/main.c",
+        "directory": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/build-My setup 3",
+        "file": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/main.c",
+        "output": "CMakeFiles/OpenDay_2.dir/main.c.obj"
+    },
+    {
+        "command": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/gcc/arm/gcc-arm-none-eabi/bin/arm-none-eabi-gcc -DMikroCCoreVersion=1 -DOSC_KHZ=\"168*1000UL\" -DPREINIT_SUPPORTED -I/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/include -isystem /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/Debug/include/core -isystem /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/Debug/include/core/STM32F407ZG -isystem /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/Debug/include/core/common/cmsis -g -std=gnu99 -Wl,-Map=output.map,-gc-sections,--print-memory-usage -mcpu=cortex-m4 -mthumb --specs=nosys.specs -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Wno-int-conversion -Wno-incompatible-function-pointer-types -Wno-implicit-function-declaration -o CMakeFiles/OpenDay_2.dir/.meproject/setup/FileStartup/stm32f407zg.s.obj -c /home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/FileStartup/stm32f407zg.s",
+        "directory": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/build-My setup 3",
+        "file": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_2/.meproject/setup/FileStartup/stm32f407zg.s",
+        "output": "CMakeFiles/OpenDay_2.dir/.meproject/setup/FileStartup/stm32f407zg.s.obj"
+    }
+]
