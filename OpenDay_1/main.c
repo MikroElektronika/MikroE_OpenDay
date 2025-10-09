@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include <cstdio.h>
 
 // Simple busy-wait delay function
 void delay(unsigned int count)
@@ -10,13 +9,33 @@ void delay(unsigned int count)
     }
 }
 
-// Function to display flag state
+// Function to display flag state, updated for new branch
 void printFlag(bool flag)
 {
     if (flag) {
-        printf_me("Flag is ON\n");
+        printf_me("Flag is Activated\n");
     } else {
-        printf_me("Flag is OFF\n");
+        printf_me("Flag is Deactivated\n");
+    }
+}
+
+// Basic calculator function for two integers and an operator
+int calculator(int a, int b, char op)
+{
+    switch(op) {
+        case '+': return a + b;
+        case '-': return a - b;
+        case '*': return a * b;
+        case '/': 
+            if (b != 0)
+                return a / b;
+            else {
+                printf_me("Error: Division by zero!\n");
+                return 0;
+            }
+        default:
+            printf_me("Error: Invalid operator '%c'\n", op);
+            return 0;
     }
 }
 
@@ -28,15 +47,20 @@ int main(void)
     #endif
 
     bool flag = false;
+    int a = 10, b = 3;
 
-    /* Replace with your application code */
     while (1)
     {
-        flag = !flag;          // Toggle flag state
+        flag = !flag;           // Toggle flag state
+        printFlag(flag);        // Display updated flag state messages
 
-        printFlag(flag);       // Display flag state in console
+        // Demonstrate calculator operations
+        printf_me("Calc Add: %d + %d = %d\n", a, b, calculator(a, b, '+'));
+        printf_me("Calc Subtract: %d - %d = %d\n", a, b, calculator(a, b, '-'));
+        printf_me("Calc Multiply: %d * %d = %d\n", a, b, calculator(a, b, '*'));
+        printf_me("Calc Divide: %d / %d = %d\n", a, b, calculator(a, b, '/'));
 
-        delay(1000000);        // Delay to slow down toggling
+        delay(2000000);
     }
 
     return 0;
