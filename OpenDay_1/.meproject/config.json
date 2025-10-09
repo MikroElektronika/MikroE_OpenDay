@@ -1,0 +1,418 @@
+{
+    "build_system": {
+        "PRIMARY_CORE": "",
+        "SECONDARY_CORE": "",
+        "build_output_path": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2",
+        "settings": {
+            "CMAKE_BUILD_TYPE": "Debug",
+            "CMAKE_CACHEFILE_DIR": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2",
+            "CMAKE_CACHE_MAJOR_VERSION": "3",
+            "CMAKE_CACHE_MINOR_VERSION": "30",
+            "CMAKE_CACHE_PATCH_VERSION": "5",
+            "CMAKE_COMMAND": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/bin/cmake",
+            "CMAKE_CPACK_COMMAND": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/bin/cpack",
+            "CMAKE_CTEST_COMMAND": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/bin/ctest",
+            "CMAKE_EDIT_COMMAND": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/bin/ccmake",
+            "CMAKE_EXPORT_COMPILE_COMMANDS": "1",
+            "CMAKE_EXTRA_GENERATOR": null,
+            "CMAKE_FIND_PACKAGE_REDIRECTS_DIR": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2/CMakeFiles/pkgRedirects",
+            "CMAKE_GENERATOR": "Ninja",
+            "CMAKE_GENERATOR_INSTANCE": null,
+            "CMAKE_GENERATOR_PLATFORM": null,
+            "CMAKE_GENERATOR_TOOLSET": null,
+            "CMAKE_HOME_DIRECTORY": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1",
+            "CMAKE_INSTALL_BINDIR": "bin",
+            "CMAKE_INSTALL_DATADIR": null,
+            "CMAKE_INSTALL_DATAROOTDIR": "share",
+            "CMAKE_INSTALL_DOCDIR": null,
+            "CMAKE_INSTALL_INCLUDEDIR": "include",
+            "CMAKE_INSTALL_INFODIR": null,
+            "CMAKE_INSTALL_LIBDIR": "lib",
+            "CMAKE_INSTALL_LIBEXECDIR": "libexec",
+            "CMAKE_INSTALL_LOCALEDIR": null,
+            "CMAKE_INSTALL_LOCALSTATEDIR": "var",
+            "CMAKE_INSTALL_MANDIR": null,
+            "CMAKE_INSTALL_OLDINCLUDEDIR": "/usr/include",
+            "CMAKE_INSTALL_PREFIX": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/install",
+            "CMAKE_INSTALL_RUNSTATEDIR": null,
+            "CMAKE_INSTALL_SBINDIR": "sbin",
+            "CMAKE_INSTALL_SHAREDSTATEDIR": "com",
+            "CMAKE_INSTALL_SYSCONFDIR": "etc",
+            "CMAKE_MAKE_PROGRAM": "/home/stevan/MikroElektronika_Experimental/NECTOStudio/bin/ninja",
+            "CMAKE_MikroC_COMPILER": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/mikroCPIC1618",
+            "CMAKE_MikroC_COMPILER_FORCED": "TRUE",
+            "CMAKE_MikroC_COMPILER_ID": "mikroC",
+            "CMAKE_MikroC_COMPILER_ID_RUN": "TRUE",
+            "CMAKE_MikroC_COMPILER_WORKS": "TRUE",
+            "CMAKE_NUMBER_OF_MAKEFILES": "1",
+            "CMAKE_PLATFORM_INFO_INITIALIZED": "1",
+            "CMAKE_PREFIX_PATH": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/install",
+            "CMAKE_PROJECT_DESCRIPTION": null,
+            "CMAKE_PROJECT_HOMEPAGE_URL": null,
+            "CMAKE_PROJECT_NAME": "OpenDay_1",
+            "CMAKE_ROOT": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30",
+            "CMAKE_SKIP_INSTALL_RPATH": "NO",
+            "CMAKE_SKIP_RPATH": "NO",
+            "CMAKE_TOOLCHAIN_FILE": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2/toolchain.cmake",
+            "CMAKE_UNAME": "/usr/bin/uname",
+            "CMAKE_VERBOSE_MAKEFILE": "FALSE",
+            "CMAKE_mikroC_COMPILER_WORKS": "1",
+            "CORE_LIB": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/lib/lib_core.a",
+            "CORE_NAME": "P18",
+            "FLATTEN_ME": "TRUE",
+            "FLATTEN_ME_LEVEL": "FLATTEN_ME_LEVEL_HIGH",
+            "HAS_MIKROBUS": "true",
+            "IS_PD_SETUP": "FALSE",
+            "JCFG_FILE": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/PIC18F65K40.jcfg",
+            "LOG_INTERFACE": "LOG_INTERFACE_STDOUT",
+            "MCU_FLASH": "32768",
+            "MCU_IS_DUALCORE": "0",
+            "MCU_NAME": "PIC18F65K40",
+            "MCU_RAM": "2048",
+            "MIKROSDK_TYPE": "mikrosdk",
+            "MSDK_BUILD_TFT_MODULES": "FALSE",
+            "MikroC.Core_DIR": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/lib/cmake/MikroC.Core",
+            "NECTO_APPLICATION_DIR": "/home/stevan/MikroElektronika_Experimental/NECTOStudio/bin",
+            "NECTO_DESIGNER_GENERATOR_PATH": "/home/stevan/MikroElektronika_Experimental/NECTOStudio/bin/vtft_generator",
+            "OSC": "1",
+            "OpenDay_1_BINARY_DIR": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2",
+            "OpenDay_1_IS_TOP_LEVEL": "ON",
+            "OpenDay_1_SOURCE_DIR": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1",
+            "PREINIT_ROUTINE_PATH": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/preinit",
+            "PROJECT_TYPE": "mikrosdk",
+            "SEARCH_PATHS": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2;/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/core/PIC/mikroC/pic_mikroc_pic18k40/def;/home/stevan/GIT/MikroE_OpenDay/OpenDay_1",
+            "TEST_LIB_PATH": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/unit_test_lib",
+            "TOOLCHAIN_ID": "mikrocpic",
+            "TOOLCHAIN_LANGUAGE": "MikroC",
+            "XC8_SUPPORTED": "TRUE",
+            "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/install",
+            "_HAS_MIKROBUS_": "TRUE",
+            "_MSDK_BOARD_NAME_": "BOARD_UNI_DS_V8",
+            "_MSDK_DIP_SOCKET_TYPE_": null,
+            "_MSDK_ETH_PHY_CHIP_": "NULL",
+            "_MSDK_HAL_LOW_LEVEL_TARGET_": "mikroe",
+            "_MSDK_MCU_CARD_NAME_": "MCU_CARD_10_FOR_PIC",
+            "_MSDK_PACKAGE_ID_": null,
+            "_MSDK_PACKAGE_NAME_": "TQFP",
+            "_MSDK_PACKAGE_PIN_COUNT_": "64"
+        },
+        "steps": {
+            "build": [
+                {
+                    "arguments": "--build all",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ],
+            "clean": [
+                {
+                    "arguments": "--clean",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ]
+        },
+        "uid": "cmake"
+    },
+    "enabled_in_view": true,
+    "env_uid": "2399f968a48d4ec7a9e0b037fd1300f5",
+    "is_valid": true,
+    "name": "My setup 2",
+    "prog": {
+        "auto_start_local_gdb": true,
+        "control_port": "1235",
+        "has_erase": true,
+        "ip_address": "127.0.0.1",
+        "mcu_name": "PIC18F65K40",
+        "port": "1234",
+        "remote_addresses": [
+        ],
+        "remote_password": "",
+        "selected_device": null,
+        "selected_options": {
+            "Erase Type": {
+                "group": "Target Operation",
+                "value": "Mass erase"
+            },
+            "Programming Type": {
+                "group": "Target Connection",
+                "value": "Vpp first entry mode"
+            },
+            "Protocol": {
+                "group": "Target Connection",
+                "value": "ICSP"
+            },
+            "Speed": {
+                "group": "Target Connection",
+                "value": "4 MHz"
+            },
+            "Verify Type": {
+                "group": "Target Operation",
+                "value": "Readback"
+            },
+            "Verify after Write": {
+                "group": "Target Operation",
+                "value": "Enabled"
+            }
+        },
+        "uid": "codegrip"
+    },
+    "sdk": {
+        "flatten_level": "FLATTEN_ME_LEVEL_HIGH",
+        "icon": "images/mikrosdk.png",
+        "installed": 1,
+        "legacy": 0,
+        "name": "mikroSDK",
+        "sdk_development_kit": 0,
+        "standard_output": "Application output",
+        "uid": "mikrosdk_v2155",
+        "version": "2.15.5"
+    },
+    "target": {
+        "board": {
+            "mikrobus_count": 5,
+            "uid": "UNI_DS_V8"
+        },
+        "display": {
+            "height": 0,
+            "uid": "NO_DISPLAY",
+            "width": 0
+        },
+        "mcu": {
+            "flash": 32768,
+            "ram": 2048,
+            "settings": {
+                "clock": "1",
+                "config_registers": [
+                    {
+                        "fields": [
+                            {
+                                "key": "FEXTOSC",
+                                "value": "00000007"
+                            },
+                            {
+                                "key": "RSTOSC",
+                                "value": "00000070"
+                            }
+                        ],
+                        "key": "CONFIG1L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "CLKOUTEN",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "CSWEN",
+                                "value": "00000008"
+                            },
+                            {
+                                "key": "FCMEN",
+                                "value": "00000020"
+                            }
+                        ],
+                        "key": "CONFIG1H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "MCLRE",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "PWRTE",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "LPBOREN",
+                                "value": "00000020"
+                            },
+                            {
+                                "key": "BOREN",
+                                "value": "000000c0"
+                            }
+                        ],
+                        "key": "CONFIG2L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "BORV",
+                                "value": "00000003"
+                            },
+                            {
+                                "key": "ZCD",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "PPS1WAY",
+                                "value": "00000008"
+                            },
+                            {
+                                "key": "STVREN",
+                                "value": "00000010"
+                            },
+                            {
+                                "key": "DEBUG",
+                                "value": "00000020"
+                            },
+                            {
+                                "key": "XINST",
+                                "value": "00000080"
+                            }
+                        ],
+                        "key": "CONFIG2H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WDTCPS",
+                                "value": "0000001f"
+                            },
+                            {
+                                "key": "WDTE",
+                                "value": "00000060"
+                            }
+                        ],
+                        "key": "CONFIG3L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WDTCWS",
+                                "value": "00000007"
+                            },
+                            {
+                                "key": "WDTCCS",
+                                "value": "00000038"
+                            }
+                        ],
+                        "key": "CONFIG3H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WRT0",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "WRT1",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "WRT2",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "WRT3",
+                                "value": "00000008"
+                            }
+                        ],
+                        "key": "CONFIG4L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WRTC",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "WRTB",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "WRTD",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "SCANE",
+                                "value": "00000010"
+                            },
+                            {
+                                "key": "LVP",
+                                "value": "00000020"
+                            }
+                        ],
+                        "key": "CONFIG4H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "CP",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "CPD",
+                                "value": "00000002"
+                            }
+                        ],
+                        "key": "CONFIG5L"
+                    },
+                    {
+                        "fields": [
+                        ],
+                        "key": "CONFIG5H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "EBTR0",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "EBTR1",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "EBTR2",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "EBTR3",
+                                "value": "00000008"
+                            }
+                        ],
+                        "key": "CONFIG6L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "EBTRB",
+                                "value": "00000002"
+                            }
+                        ],
+                        "key": "CONFIG6H"
+                    }
+                ],
+                "core": null,
+                "delay_src_path": null,
+                "mcu": "PIC18F65K40",
+                "name": null,
+                "scheme": null
+            },
+            "uid": "MCU_CARD_10_FOR_PIC_PIC18F65K40"
+        }
+    },
+    "toolchain": {
+        "c_compiler": "mikroCPIC1618",
+        "clangd_config": "",
+        "core_path": "PIC/mikroC",
+        "cxx_compiler": "",
+        "gdb": "",
+        "mcu_support": "mcu.support.memcu",
+        "name": "mikroC AI for PIC",
+        "options": {
+            "ANSI_pack": false,
+            "case_sensitive": true,
+            "dynamic_link_literals": false,
+            "generate_additional_files": true,
+            "long_hex_format": false,
+            "ssa_optimization_level": "4"
+        },
+        "path": "mikroc/pic/mikroc",
+        "uid": "mikrocpic",
+        "version": "3.0.0"
+    },
+    "uid": "9de17082-5e7a-463f-b647-c0eae6c42fd6"
+}

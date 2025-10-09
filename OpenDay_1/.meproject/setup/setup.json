@@ -1,0 +1,337 @@
+{
+    "build_system": {
+        "settings": {
+            "CORE_NAME": "P18",
+            "HAS_MIKROBUS": "true",
+            "MCU_NAME": "PIC18F65K40",
+            "_MSDK_BOARD_NAME_": "BOARD_UNI_DS_V8",
+            "_MSDK_DIP_SOCKET_TYPE_": "",
+            "_MSDK_ETH_PHY_CHIP_": "NULL",
+            "_MSDK_HAL_LOW_LEVEL_TARGET_": "mikroe",
+            "_MSDK_MCU_CARD_NAME_": "MCU_CARD_10_FOR_PIC",
+            "_MSDK_PACKAGE_ID_": "",
+            "_MSDK_PACKAGE_NAME_": "TQFP",
+            "_MSDK_PACKAGE_PIN_COUNT_": "64",
+            "board": null,
+            "compiler": null,
+            "device": {
+                "XC8_SUPPORTED": "TRUE"
+            },
+            "display": null
+        },
+        "steps": {
+            "build": [
+                {
+                    "arguments": "--build all",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ],
+            "clean": [
+                {
+                    "arguments": "--clean",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ]
+        },
+        "uid": "cmake"
+    },
+    "name": "My setup 2",
+    "prog": {
+        "auto_start_local_gdb": true,
+        "control_port": "1235",
+        "has_erase": true,
+        "ip_address": "127.0.0.1",
+        "mcu_name": "PIC18F65K40",
+        "port": "1234",
+        "remote_addresses": [
+        ],
+        "remote_password": "",
+        "selected_device": null,
+        "selected_options": {
+            "Erase Type": {
+                "group": "Target Operation",
+                "value": "Mass erase"
+            },
+            "Programming Type": {
+                "group": "Target Connection",
+                "value": "Vpp first entry mode"
+            },
+            "Protocol": {
+                "group": "Target Connection",
+                "value": "ICSP"
+            },
+            "Speed": {
+                "group": "Target Connection",
+                "value": "4 MHz"
+            },
+            "Verify Type": {
+                "group": "Target Operation",
+                "value": "Readback"
+            },
+            "Verify after Write": {
+                "group": "Target Operation",
+                "value": "Enabled"
+            }
+        },
+        "uid": "codegrip"
+    },
+    "sdk": {
+        "flatten_level": "FLATTEN_ME_LEVEL_HIGH",
+        "icon": "images/mikrosdk.png",
+        "installed": 1,
+        "legacy": 0,
+        "name": "mikroSDK",
+        "sdk_development_kit": 0,
+        "standard_output": "Application output",
+        "uid": "mikrosdk_v2155",
+        "version": "2.15.5"
+    },
+    "target": {
+        "board": {
+            "mikrobus_count": 5,
+            "uid": "UNI_DS_V8"
+        },
+        "display": {
+            "height": 0,
+            "uid": "NO_DISPLAY",
+            "width": 0
+        },
+        "mcu": {
+            "flash": 32768,
+            "ram": 2048,
+            "settings": {
+                "clock": "1",
+                "config_registers": [
+                    {
+                        "fields": [
+                            {
+                                "key": "FEXTOSC",
+                                "value": "00000007"
+                            },
+                            {
+                                "key": "RSTOSC",
+                                "value": "00000070"
+                            }
+                        ],
+                        "key": "CONFIG1L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "CLKOUTEN",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "CSWEN",
+                                "value": "00000008"
+                            },
+                            {
+                                "key": "FCMEN",
+                                "value": "00000020"
+                            }
+                        ],
+                        "key": "CONFIG1H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "MCLRE",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "PWRTE",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "LPBOREN",
+                                "value": "00000020"
+                            },
+                            {
+                                "key": "BOREN",
+                                "value": "000000c0"
+                            }
+                        ],
+                        "key": "CONFIG2L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "BORV",
+                                "value": "00000003"
+                            },
+                            {
+                                "key": "ZCD",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "PPS1WAY",
+                                "value": "00000008"
+                            },
+                            {
+                                "key": "STVREN",
+                                "value": "00000010"
+                            },
+                            {
+                                "key": "DEBUG",
+                                "value": "00000020"
+                            },
+                            {
+                                "key": "XINST",
+                                "value": "00000080"
+                            }
+                        ],
+                        "key": "CONFIG2H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WDTCPS",
+                                "value": "0000001f"
+                            },
+                            {
+                                "key": "WDTE",
+                                "value": "00000060"
+                            }
+                        ],
+                        "key": "CONFIG3L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WDTCWS",
+                                "value": "00000007"
+                            },
+                            {
+                                "key": "WDTCCS",
+                                "value": "00000038"
+                            }
+                        ],
+                        "key": "CONFIG3H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WRT0",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "WRT1",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "WRT2",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "WRT3",
+                                "value": "00000008"
+                            }
+                        ],
+                        "key": "CONFIG4L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WRTC",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "WRTB",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "WRTD",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "SCANE",
+                                "value": "00000010"
+                            },
+                            {
+                                "key": "LVP",
+                                "value": "00000020"
+                            }
+                        ],
+                        "key": "CONFIG4H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "CP",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "CPD",
+                                "value": "00000002"
+                            }
+                        ],
+                        "key": "CONFIG5L"
+                    },
+                    {
+                        "fields": [
+                        ],
+                        "key": "CONFIG5H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "EBTR0",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "EBTR1",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "EBTR2",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "EBTR3",
+                                "value": "00000008"
+                            }
+                        ],
+                        "key": "CONFIG6L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "EBTRB",
+                                "value": "00000002"
+                            }
+                        ],
+                        "key": "CONFIG6H"
+                    }
+                ],
+                "core": null,
+                "delay_src_path": null,
+                "mcu": "PIC18F65K40",
+                "scheme": null
+            },
+            "uid": "MCU_CARD_10_FOR_PIC_PIC18F65K40"
+        }
+    },
+    "toolchain": {
+        "c_compiler": "mikroCPIC1618",
+        "clangd_config": "",
+        "core_path": "PIC/mikroC",
+        "cxx_compiler": "",
+        "gdb": "",
+        "mcu_support": "mcu.support.memcu",
+        "name": "mikroC AI for PIC",
+        "options": {
+            "ANSI_pack": false,
+            "case_sensitive": true,
+            "dynamic_link_literals": false,
+            "generate_additional_files": true,
+            "long_hex_format": false,
+            "ssa_optimization_level": "4"
+        },
+        "path": "mikroc/pic/mikroc",
+        "uid": "mikrocpic",
+        "version": "3.0.0"
+    },
+    "uid": "9de17082-5e7a-463f-b647-c0eae6c42fd6"
+}

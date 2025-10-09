@@ -1,0 +1,56 @@
+{
+    "back_door_key": "0",
+    "config_registers": [
+        {
+            "address": "$300000",
+            "value": "$77"
+        },
+        {
+            "address": "$300001",
+            "value": "$29"
+        },
+        {
+            "address": "$300002",
+            "value": "$e3"
+        },
+        {
+            "address": "$300003",
+            "value": "$bf"
+        },
+        {
+            "address": "$300004",
+            "value": "$7f"
+        },
+        {
+            "address": "$300005",
+            "value": "$3f"
+        },
+        {
+            "address": "$300006",
+            "value": "$f"
+        },
+        {
+            "address": "$300007",
+            "value": "$37"
+        },
+        {
+            "address": "$300008",
+            "value": "$3"
+        },
+        {
+            "address": "$300009",
+            "value": "$0"
+        },
+        {
+            "address": "$30000A",
+            "value": "$f"
+        },
+        {
+            "address": "$30000B",
+            "value": "$2"
+        }
+    ],
+    "data_type_size": "0",
+    "mcu_name": "PIC18F65K40",
+    "stack_allocation": "0"
+}

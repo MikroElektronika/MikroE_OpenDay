@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2",
+  "command": "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/mikroCPIC1618 -pPIC18F65K40 -jcom -DL -NRL  -b\"/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2\" -fo1 -C -MF -O11111114 -DBG -UICD -DMikroCCoreVersion=1 -DPREINIT_SUPPORTED -SP\"/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/build-My setup 2\" -SP\"/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/core/PIC/mikroC/pic_mikroc_pic18k40/def\" -SP\"/home/stevan/GIT/MikroE_OpenDay/OpenDay_1\" \"/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/PIC18F65K40.jcfg\"  -IP/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/include -IP/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/lib/../include/core -IP -out CMakeFiles/OpenDay_1.dir/main.mcl /home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c \"/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/lib/lib_core.a\"",
+  "file": "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c",
+  "output": "CMakeFiles/OpenDay_1.dir/main.mcl"
+}
+]
