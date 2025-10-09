@@ -1,4 +1,47 @@
 main@_main
 	__FillZeros@___FillZeros
 	preinit@_preinit
-	delay@main_delay
+	printFlag@_printFlag
+		printf_me@_printf_me
+			vfprintf_me@_vfprintf_me
+				____DoIFC@_____DoIFC
+				__isdigit@cstdio___isdigit
+				Mul_16X16_U@_Mul_16X16_U
+				Compare_Double@_Compare_Double
+				Equals_Double@_Equals_Double
+				Div_16x16_S@_Div_16x16_S
+					Div_16x16_S_L@_Div_16x16_S_L
+				scale@cstdio_scale
+					Div_8X8_S@_Div_8X8_S
+					Mul_32x32_FP@_Mul_32x32_FP
+						RES032@_RES032
+						SETFOV32@_SETFOV32
+						SETFUN32@_SETFUN32
+				Mul_32x32_FP@_Mul_32x32_FP ->[...] 
+				Div_32x32_FP@_Div_32x32_FP
+					SETFDZ32@_SETFDZ32
+					RES032@_RES032
+					SETFOV32@_SETFOV32
+					SETFUN32@_SETFUN32
+				double2longword@_double2longword
+					SETIOV3224@_SETIOV3224
+				longword2double@_longword2double
+					NRM4032@_NRM4032
+						SETFUN32@_SETFUN32
+						FIXSIGN32@_FIXSIGN32
+						SETFOV32@_SETFOV32
+						RES032@_RES032
+				Sub_32x32_FP@_Sub_32x32_FP
+					Add_32x32_FP@_Add_32x32_FP
+						NRM4032@_NRM4032 ->[...] 
+						SETFOV32@_SETFOV32
+				Add_32x32_FP@_Add_32x32_FP ->[...] 
+				Div_32x32_U@_Div_32x32_U
+				fround@cstdio_fround
+					Div_8X8_U@_Div_8X8_U
+					Mul_32x32_FP@_Mul_32x32_FP ->[...] 
+				double2longint@_double2longint
+					SETIOV3224@_SETIOV3224
+				debugStdOut@_debugStdOut
+					stdBuffFullBreak@cstdio_stdBuffFullBreak
+	delay@_delay

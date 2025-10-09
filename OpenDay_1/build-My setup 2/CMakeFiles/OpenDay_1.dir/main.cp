@@ -1,7 +1,14 @@
 #line 1 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
-#line 15 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
-#line 1 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/include/core/preinit.h"
-#line 51 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/include/core/preinit.h"
+#line 1 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/stdio.h"
+#line 2 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
+#line 1 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/stdbool.h"
+
+
+
+typedef char _Bool;
+#line 3 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
+#line 1 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
+#line 33 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
 #line 1 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/stdint.h"
 
 
@@ -43,27 +50,47 @@ typedef unsigned int uintptr_t;
 
 typedef signed long int intmax_t;
 typedef unsigned long int uintmax_t;
-#line 52 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/include/core/preinit.h"
-#line 1 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/stdbool.h"
+#line 34 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
+#line 1 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/stdarg.h"
 
 
 
-typedef char _Bool;
-#line 53 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/include/core/preinit.h"
-#line 66 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/.meproject/setup/Debug/include/core/preinit.h"
-void preinit(void);
-#line 16 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
-#line 18 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
-#line 1 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/stdbool.h"
-#line 19 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
-#line 28 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
-static void delay(volatile unsigned int count)
+
+typedef void *va_list[1];
+#line 35 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
+#line 42 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
+static inline void stdBuffFullBreak() {
+
+
+
+    asm nop
+
+}
+#line 57 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
+void debugStdOut( char ch );
+#line 72 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
+int printf_me( const char *format, ... );
+#line 88 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
+int fprintf_me( void (*stream)(char ch), const char *format, ... );
+#line 106 "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/compilers/mikroc/pic/mikroc/include/cstdio.h"
+int vfprintf_me( void (*stream)(char ch), const char *format, register va_list arg );
+#line 4 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
+
+
+void delay(unsigned int count)
 {
-    while (count--)
-    {
+    while(count--) {
 
-        volatile int dummy = 0;
-        (void)dummy;
+    }
+}
+
+
+void printFlag( _Bool  flag)
+{
+    if (flag) {
+        printf_me("Flag is ON\n");
+    } else {
+        printf_me("Flag is OFF\n");
     }
 }
 
@@ -80,7 +107,9 @@ int main(void)
     while (1)
     {
         flag = !flag;
-#line 57 "/home/stevan/GIT/MikroE_OpenDay/OpenDay_1/main.c"
+
+        printFlag(flag);
+
         delay(1000000);
     }
 

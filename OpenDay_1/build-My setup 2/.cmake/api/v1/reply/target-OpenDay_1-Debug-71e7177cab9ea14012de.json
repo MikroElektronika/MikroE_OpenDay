@@ -22,7 +22,7 @@
 		[
 			"CMakeLists.txt",
 			"build-My setup 2/toolchain.cmake",
-			"/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
+			"build-My setup 2/CMakeFiles/3.30.5/CMakeSystem.cmake",
 			"/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/mikroeUtilsCommon.cmake",
 			"/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/mikroeUtils.cmake"
 		],
@@ -50,7 +50,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 146,
+				"line" : 6,
 				"parent" : 3
 			},
 			{

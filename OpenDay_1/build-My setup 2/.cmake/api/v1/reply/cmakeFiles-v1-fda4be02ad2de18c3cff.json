@@ -5,20 +5,6 @@
 			"path" : "CMakeLists.txt"
 		},
 		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "build-My setup 2/toolchain.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeSystem.cmake.in"
-		},
-		{
 			"isGenerated" : true,
 			"path" : "build-My setup 2/CMakeFiles/3.30.5/CMakeSystem.cmake"
 		},
@@ -30,14 +16,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/CMakeDetermineMikroCCompiler.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/CMakeMikroCCompiler.cmake.in"
 		},
 		{
 			"isGenerated" : true,
@@ -66,10 +44,6 @@
 		{
 			"isExternal" : true,
 			"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/CMakeMikroCInformation.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/CMakeTestMikroCCompiler.cmake"
 		},
 		{
 			"isExternal" : true,
