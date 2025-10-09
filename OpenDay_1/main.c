@@ -39,6 +39,17 @@ int calculator(int a, int b, char op)
     }
 }
 
+// Example: Temperature conversion functions
+float celsiusToFahrenheit(float c)
+{
+    return (c * 9.0f / 5.0f) + 32.0f;
+}
+
+float fahrenheitToCelsius(float f)
+{
+    return (f - 32.0f) * 5.0f / 9.0f;
+}
+
 int main(void)
 {
     /* Do not remove this line or clock might not be set correctly. */
@@ -60,8 +71,13 @@ int main(void)
         printf_me("Calc Multiply: %d * %d = %d\n", a, b, calculator(a, b, '*'));
         printf_me("Calc Divide: %d / %d = %d\n", a, b, calculator(a, b, '/'));
 
+        // Demonstrate temperature conversion
+        float tempC = 25.0f;
+        float tempF = celsiusToFahrenheit(tempC);
+        printf_me("Temperature: %.2f°C = %.2f°F\n", tempC, tempF);
+        printf_me("Temperature: %.2f°F = %.2f°C\n", tempF, fahrenheitToCelsius(tempF));
+
         delay(2000000);
     }
-
     return 0;
 }
