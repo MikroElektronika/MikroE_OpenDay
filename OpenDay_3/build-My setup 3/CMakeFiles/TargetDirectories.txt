@@ -1,0 +1,3 @@
+/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/build-My setup 3/CMakeFiles/OpenDay_3.dir
+/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/build-My setup 3/CMakeFiles/edit_cache.dir
+/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/build-My setup 3/CMakeFiles/rebuild_cache.dir

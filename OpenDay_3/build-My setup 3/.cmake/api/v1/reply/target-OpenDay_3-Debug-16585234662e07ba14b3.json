@@ -1,0 +1,502 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "OpenDay_3"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"include",
+			"project",
+			"target_link_options",
+			"add_ld_all_targets",
+			"target_link_libraries",
+			"add_compile_options",
+			"include_directories",
+			"target_sources",
+			"add_startup_all_targets"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"build-My setup 3/toolchain.cmake",
+			"/home/stevan/.MIKROE/NECTOStudio7_Experimental/packages/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
+			"/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/mikroeUtilsCommon.cmake",
+			"/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/mikroeUtils.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 146,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 386,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 178,
+				"parent" : 12
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 34,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 428,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 385,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wl,-Map=output.map,-gc-sections,--print-memory-usage"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "--specs=nosys.specs"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-int-conversion"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-incompatible-function-pointer-types"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-implicit-function-declaration"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "MikroCCoreVersion=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "OSC_KHZ=168*1000UL"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "PREINIT_SUPPORTED"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/.meproject/setup/Debug/include/core"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/.meproject/setup/Debug/include/core/STM32F407ZG"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/.meproject/setup/Debug/include/core/common/cmsis"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wl,-Map=output.map,-gc-sections,--print-memory-usage"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "--specs=nosys.specs"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-int-conversion"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-incompatible-function-pointer-types"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-implicit-function-declaration"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "MikroCCoreVersion=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "OSC_KHZ=168*1000UL"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "PREINIT_SUPPORTED"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/home/stevan/.MIKROE/NECTOStudio7_Experimental/cmake/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/.meproject/setup/Debug/include/core"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/.meproject/setup/Debug/include/core/STM32F407ZG"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/.meproject/setup/Debug/include/core/common/cmsis"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"id" : "OpenDay_3::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-std=gnu99",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-Map=output.map,-gc-sections,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-mcpu=cortex-m4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "--specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-mfloat-abi=hard",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-mfpu=fpv4-sp-d16",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-ffunction-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-fdata-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-fno-common",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-fmessage-length=0",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wno-int-conversion",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wno-incompatible-function-pointer-types",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wno-implicit-function-declaration",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-T",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/.meproject/setup/FileLinker/stm32f407zg.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/stevan/GIT/MikroE_OpenDay/OpenDay_3/.meproject/setup/Debug/lib/lib_core.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "OpenDay_3",
+	"nameOnDisk" : "OpenDay_3",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 1,
+			"path" : ".meproject/setup/FileStartup/stm32f407zg.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 18,
+			"path" : ".meproject/setup/FileLinker/stm32f407zg.ld",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
