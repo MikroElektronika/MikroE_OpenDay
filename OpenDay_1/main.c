@@ -19,26 +19,6 @@ void printFlag(bool flag)
     }
 }
 
-// Basic calculator function for two integers and an operator
-int calculator(int a, int b, char op)
-{
-    switch(op) {
-        case '+': return a + b;
-        case '-': return a - b;
-        case '*': return a * b;
-        case '/': 
-            if (b != 0)
-                return a / b;
-            else {
-                printf_me("Error: Division by zero!\n");
-                return 0;
-            }
-        default:
-            printf_me("Error: Invalid operator '%c'\n", op);
-            return 0;
-    }
-}
-
 // Example: Temperature conversion functions
 float celsiusToFahrenheit(float c)
 {
